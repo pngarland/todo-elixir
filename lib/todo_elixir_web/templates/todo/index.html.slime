@@ -1,0 +1,17 @@
+h2 Listing Todos
+table.table
+  thead
+    tr
+      th Description
+      th Tags
+      th
+  tbody
+    - for todo <- @todos do
+      tr
+        td = todo.description
+        td = todo.tags
+        td.text-right
+          span = link "Show", to: todo_path(@conn, :show, todo), class: "btn btn-default btn-xs"
+          span = link "Edit", to: todo_path(@conn, :edit, todo), class: "btn btn-default btn-xs"
+          span = link "Delete", to: todo_path(@conn, :delete, todo), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs"
+span = link "New Todo", to: todo_path(@conn, :new)

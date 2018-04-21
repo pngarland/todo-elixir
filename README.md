@@ -14,6 +14,7 @@
 ### Useful Commands
 - `mix deps.get`
 - `mix help | grep -i phx`
+- `mix phx.routes`
 
 ### Links
 - [slime](https://github.com/slime-lang/slime)
