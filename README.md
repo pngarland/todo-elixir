@@ -11,8 +11,9 @@
 - run migrations: `mix ecto.migrate`
 - scaffold html: `mix phx.gen.html Web Todo todos description tags:array:string`
 
-
-
-other useful commands:
+### Useful Commands
 - `mix deps.get`
 - `mix help | grep -i phx`
+
+### Links
+- [slime](https://github.com/slime-lang/slime)
