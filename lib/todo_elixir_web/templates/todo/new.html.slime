@@ -1,0 +1,3 @@
+h2 New Todo
+= render "form.html", Map.put(assigns, :action, todo_path(@conn, :create))
+span = link "Back", to: todo_path(@conn, :index)

@@ -38,7 +38,7 @@ config :todo_elixir, TodoElixirWeb.Endpoint,
       ~r{priv/gettext/.*(po)$},
       ~r{lib/todo_elixir_web/views/.*(ex)$},
       ~r{lib/todo_elixir_web/.*(ex)$},
-      ~r{lib/todo_elixir_web/templates/.*(eex)$}
+      ~r{lib/todo_elixir_web/templates/.*(eex|slime)$}
     ]
   ]
 

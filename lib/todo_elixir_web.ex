@@ -23,6 +23,7 @@ defmodule TodoElixirWeb do
       import Plug.Conn
       import TodoElixirWeb.Router.Helpers
       import TodoElixirWeb.Gettext
+      require IEx
     end
   end
 

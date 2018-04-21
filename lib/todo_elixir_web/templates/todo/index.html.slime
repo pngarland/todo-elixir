@@ -6,7 +6,7 @@ table.table
       th Tags
       th
   tbody
-    - for todo <- @todos do
+    = for todo <- @todos do
       tr
         td = todo.description
         td = todo.tags

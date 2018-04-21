@@ -14,6 +14,6 @@ defmodule TodoElixir.Web.Todo do
   def changeset(todo, attrs) do
     todo
     |> cast(attrs, [:description, :tags])
-    |> validate_required([:description, :tags])
+    |> validate_required([:description])
   end
 end
